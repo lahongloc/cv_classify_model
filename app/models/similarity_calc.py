@@ -12,7 +12,7 @@ def download_nltk_data():
         print(f"Error downloading NLTK data: {e}")
 
 
-# download_nltk_data()
+download_nltk_data()
 from nltk.corpus import wordnet, stopwords
 import string
 import nltk
