@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+*.sqlite3
+instance/
+.venv/
+venv/
+venv.bak/
+Pipfile
+Pipfile.lock
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Flask-Specific
+*.log
+*.pot
+*.mo
+*.pyc
+.mypy_cache/
+.cache/
+.werkzeug/
+pytest_cache/
+
+# Spring Boot
+/target/
+/bin/
+/out/
+/*.iml
+*.class
+*.jar
+*.war
+*.ear
+/.gradle
+/.idea
+/.settings
+*.log
+/.mvn
+/.vscode/
+/.env
+/spring.log
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven
+log/
+*.log
+/target/
+/dependency-reduced-pom.xml
+release.properties
+dependency-reduced-pom.xml.asc
+
+# ReactJS
+/node_modules/
+/build/
+/dist/
+/.cache/
+/.env
+*.log
+
+# macOS and Windows specific files
+.DS_Store
+Thumbs.db
